@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y curl \
 # Install FFmpeg
 RUN apt-get update && apt-get install -y ffmpeg  && apt-get install -y flac
 
-RUN git config --global user.name "21f2000588" && \
-    git config --global user.email "21f2000588@ds.study.iitm.ac.in"
+RUN git config --global user.name "22f3002188" && \
+    git config --global user.email "22f3002188@ds.study.iitm.ac.in"
 
 WORKDIR /app
 
